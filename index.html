@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<style>
+			body {
+				background-color: #43CCFF;
+			}
+		</style>
+		<script src="quiz.js"></script>
+		<title>Moi Quiz</title>
+	</head>
+	<body>
+		<center>
+			<image src ="dell_emc.png">
+			<h1>If you know Orla you will definitely win this quiz!!</h1>
+		</center>
+
+		<input type ="button" value="Press the button, or else..." onclick="start_quiz()">
+		
+		<br>
+
+		<h2 id="question"> </h2>
+
+		<h2 id="question_box"> <font color = "#000099"> Your answer:</h2>
+
+		<input type="text" id="answer_box">
+
+		<input type="button" id="submit" value="Submit Answer" onclick="submit_question()">
+		
+		<h2 id="answer_comment"></h2>
+	</body>
+</html>
